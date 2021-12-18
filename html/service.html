@@ -6,46 +6,102 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/service.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
-    <nav>
-        <div class = 'logo'><img src="../images/z2.jpg" alt=""></div>
-        <div class="menu-button">
-            <img src="../images/menu.png"s style = 'width:2.4em;' class="menu-button" alt="can not be found">
-        </div>
-        <ul data-visible='false' class = 'nav-menu' >
-            <li><a href="../index.html">Home</a> </li>
-            <li class = 'current-page'><a href="./service.html">Service</a></li>
-            <li><a href="./teams.html">Teams</a></li>
-            <li><a href="./skills.html">Skills</a></li>
-            <li><a href="./testimonials.html">Testimonials</a></li>
-            <li><a href="./about.html">About</a></li>
-            <li><a href="./contact.html">Contact</a></li>
-        </ul>
-    </nav>
-</header>
-<footer>
-    <section class = 'address'>
-        <h3>Designed And Build by Zeamanual</h3>
-            <p>RESIDENCE: <span>Addis Ababa, Ethiopia</span></p>
-            <p>Phone: <span>+251964557813</span></p>
-    </section>
-    <section class = 'social-links'>
-        <h3>Links</h3>
-        <div>
-            <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
-            <a href=""> <i class="fa fa-linkedin" aria-hidden="true"></i></a>
-            <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            <a href=""><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
-            <a href=""> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <nav class = 'navigation'>
+            <figure class = 'navigation__logo'><a href="./contact.html"><img class = 'navigation__photo'src="../images/z2.jpg" alt=""></a></figure>
+            <figure class="navigation__button">
+                <img src="../images/menu.png"s style = 'width:2.4em;' class="navigation__button-image" alt="can not be found">
+            </figure>
+            <ul data-visible='false' class = 'navigation__menu'>
+                <li class = 'navigation__item'><a class = 'navigation__link' href="../index.html">Home</a> </li>
+                <li class = 'navigation__item '><a class = 'navigation__link navigation__link--current' href="./service.html">Service</a></li>
+                <li class = 'navigation__item'><a class = 'navigation__link' href="./teams.html">Teams</a></li>
+                <li class = 'navigation__item'><a class = 'navigation__link' href="./skills.html">Skills</a></li>
+                <li class = 'navigation__item'><a class = 'navigation__link' href="./testimonials.html">Testimonials</a></li>
+                <li class = 'navigation__item '><a class = 'navigation__link' href="./about.html">About</a></li>
+                <li class = 'navigation__item'><a class = 'navigation__link' href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <header class = 'header'><h2>WHAT I OFFER</h2></header>
+    
+        <section class = 'card-container'>
+            <figure class = 'card-container__slider card-container__slider--left-side'>
+                <i class="fa fa-angle-left fa-5x" aria-hidden="true"></i>
+            </figure>
+            <figure class = 'card-container__slider card-container__slider--right-side'>
+                <i class="fa fa-angle-right fa-5x" aria-hidden="true"></i>
+            </figure>
+            <div class = 'card-container__inner-container'>
+                <div class="card-container__card card-container__card--special1">
+                    <figure class= 'card-container__image'>
+                        <img class = 'card-container__photo'src="../images/Web Development.jpeg" alt="image not found">
+                    </figure>
+                    <h2 class = 'card-container__header'>Web Development</h2>
+                    <p class = 'card-container__content'>I use various web technologies to develop attractive websites which converts visitors to customers. I develop creative and responsive website layouts.</p>
+                    <button class = 'card-container__button'>View More</button>
+                </div>
+                <div class="card-container__card card-container__card--special2">
+                    <figure class= 'card-container__image'>
+                        <img class = 'card-container__photo'src='../images/android development .jpg' alt="image not found">
+                    </figure>
+                    <h2 class = 'card-container__header'>Android Development</h2>
+                    <p class = 'card-container__content'>With my extensive knowledge of most popular programming languages such as java and kotlin, i develop creative and fast performing android apps</p>
+                    <button class = 'card-container__button'>View More</button>
+                </div>
+                <div class="card-container__card card-container__card--special3">
+                    <figure class= 'card-container__image'>
+                        <img class = 'card-container__photo'src="../images/ios dev.png" alt="image not found">
+                    </figure>
+                    <h2 class = 'card-container__header'>IOS Development</h2>
+                    <p class = 'card-container__content'>Using C# and swift i can develop ios apps that are creative and has a well optimised performance</p>
+                    <button class = 'card-container__button'>View More</button>
+                </div>
+                <div class="card-container__card card-container__card--special4">
+                    <figure class= 'card-container__image'>
+                        <img class = 'card-container__photo'src="../images/product design.png" alt="image not found">
+                    </figure>
+                    <h2 class = 'card-container__header'>Product Design</h2>
+                    <p class = 'card-container__content'>I work with certain design tools to create high-fidelity designs and prototypes. I design accessible and usable products which aid business growth</p>
+                    <button class = 'card-container__button'>View More</button>
+                </div>
+                <div class="card-container__card card-container__card--special5">
+                    <figure class= 'card-container__image'>
+                        <img class = 'card-container__photo'src="../images/project management.jpg" alt="image not found">
+                    </figure>
+                    <h2 class = 'card-container__header'>Project Management</h2>
+                    <p class = 'card-container__content'>Using my experiences of doing multiple projects i can provide a project management service to any project teams</p>
+                    <button class = 'card-container__button'>View More</button>
+                </div>
             </div>
-    </section>
-   
-   
- 
-</footer>
+        
+        </section>
+    </main>
+
+    <footer class = 'footer'>
+        <section class = 'footer__address'>
+            <h3 class = 'footer__header'>Designed And Build by Zeamanual</h3>
+                <p>RESIDENCE: <span>Addis Ababa, Ethiopia</span></p>
+                <p>Phone: <span>+251964557813</span></p>
+        </section>
+        <section class = 'footer__social-links'>
+            <h3 class = 'footer__links-header'>Links</h3>
+            <div class = 'footer__links'>
+                <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href=""> <i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-google" aria-hidden="true"></i></a> 
+                <a href=""><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                <a href=""> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                </div>
+        </section>
+    </footer>
     <script src = '../js/javascript.js'></script>
 </body>
 </html>

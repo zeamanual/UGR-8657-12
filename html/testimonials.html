@@ -4,47 +4,77 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Testimonials</title>
     <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/testimonials.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
-    <nav>
-        <div class = 'logo'><img src="../images/z2.jpg" alt=""></div>
-        <div class="menu-button">
-            <img src="../images/menu.png"s style = 'width:2.4em;' class="menu-button" alt="can not be found">
+        <nav class = 'navigation'>
+            <figure class = 'navigation__logo'><a href="./contact.html"><img class = 'navigation__photo'src="../images/z2.jpg" alt=""></a></figure>
+            <figure class="navigation__button">
+                <img src="../images/menu.png"s style = 'width:2.4em;' class="navigation__button-image" alt="can not be found">
+            </figure>
+            <ul data-visible='false' class = 'navigation__menu'>
+                <li class = 'navigation__item'><a class = 'navigation__link' href="../index.html">Home</a> </li>
+                <li class = 'navigation__item'><a class = 'navigation__link' href="./service.html">Service</a></li>
+                <li class = 'navigation__item'><a class = 'navigation__link' href="./teams.html">Teams</a></li>
+                <li class = 'navigation__item'><a class = 'navigation__link' href="./skills.html">Skills</a></li>
+                <li class = 'navigation__item'><a class = 'navigation__link navigation__link--current' href="./testimonials.html">Testimonials</a></li>
+                <li class = 'navigation__item '><a class = 'navigation__link' href="./about.html">About</a></li>
+                <li class = 'navigation__item'><a class = 'navigation__link' href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+<main class = 'testimonials'>
+    <header class = 'testimonials__header'>What People Say About Me</header>
+    <section  class = 'testimonials__content testimonials__content--left'>
+        <div class = 'testimonials__detail'>
+            <h3 class = 'testimonials__name'>John Cary</h3>
+            <p>I am satisfied with what have been built for my business. It has changed the way i been running my Business in the past. It has an attractive design and all the required functinality</p>
         </div>
-        <ul data-visible='false' class = 'nav-menu' >
-            <li><a href="../index.html">Home</a> </li>
-            <li><a href="./service.html">Service</a></li>
-            <li><a href="./teams.html">Teams</a></li>
-            <li><a href="./skills.html">Skills</a></li>
-            <li  class = 'current-page'><a href="./testimonials.html">Testimonials</a></li>
-            <li><a href="./about.html">About</a></li>
-            <li><a href="./contact.html">Contact</a></li>
-        </ul>
-    </nav>
-</header>
-<footer>
-    <section class = 'address'>
-        <h3>Designed And Build by Zeamanual</h3>
+        <div class = 'testimonials__image'>
+            <img src="../images/testimonial 1.jpg" alt="">
+        </div> 
+    </section>
+    <section class = 'testimonials__content testimonials__content--right'> 
+        <div class = 'testimonials__image'>
+            <img src="../images/testimonial 2.jpg" alt="">
+        </div>
+        <div class = 'testimonials__detail'>
+            <h3 class = 'testimonials__name'>Kalaeb Ngus</h3>
+            <p>My product was delivered in time with high quality and appropriate payment</p>
+        </div>
+       
+    </section>
+    <section class = 'testimonials__content testimonials__content--left'>
+        <div class = 'testimonials__detail'>
+            <h3 class = 'testimonials__name'>Mesfin Tbebu</h3>
+            <p>It was a nice opportunity to work with you. Keep it up, i belive you can make a change</p>
+        </div>
+        <div class = 'testimonials__image'>
+            <img src="../images/testimonial 3.jpg" alt="">
+        </div>
+    </section>
+</main>
+<footer class = 'footer'>
+    <section class = 'footer__address'>
+        <h3 class = 'footer__header'>Designed And Build by Zeamanual</h3>
             <p>RESIDENCE: <span>Addis Ababa, Ethiopia</span></p>
             <p>Phone: <span>+251964557813</span></p>
     </section>
-    <section class = 'social-links'>
-        <h3>Links</h3>
-        <div>
+    <section class = 'footer__social-links'>
+        <h3 class = 'footer__links-header'>Links</h3>
+        <div class = 'footer__links'>
             <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
             <a href=""> <i class="fa fa-linkedin" aria-hidden="true"></i></a>
             <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-google" aria-hidden="true"></i></a> 
             <a href=""><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
             <a href=""> <i class="fa fa-instagram" aria-hidden="true"></i></a>
             </div>
     </section>
-   
-   
- 
 </footer>
     <script src = '../js/javascript.js'></script>
 </body>

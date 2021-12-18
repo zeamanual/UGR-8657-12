@@ -1,0 +1,30 @@
+.about__photo{
+    float:left;
+    width:25vw;
+    margin:1em;
+    min-width: 300px;
+}
+.about{
+    color: #0A142F;
+}
+.about__image{
+    width:100%;
+}
+.about__paragraph{
+    font-size: 1.5em;
+    padding:1em;
+    text-align: justify;
+}
+.about__header{
+    text-align: center;
+    padding:1em 0em;
+    font-size: 1.4em;
+    text-shadow: 5px 3px 3px rgb(167, 163, 163);
+}
+@media all and (max-width:560px){
+    .about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
