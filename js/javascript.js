@@ -1,7 +1,6 @@
 let navMenu = document.querySelector('.navigation__menu');
 let menuButton = document.querySelector('.navigation__button');
 menuButton.addEventListener('click',()=>{
-    const visibility = navMenu.getAttribute('data-visible')
         navMenu.classList.toggle('visible')
 
 })

@@ -9,13 +9,6 @@
     --buttonColor:rgb(255, 255, 255);
     --hoverBackground:#0095ff;
 }
-body{
-    display: flex;
-    flex-direction: column;
-    min-height:100vh;
-   justify-content: space-between;
-}
-
 .navigation__logo{
     width:2em;
 }
@@ -51,9 +44,8 @@ button:hover{
 
 }
 .navigation__link{
-    color:rgb(255, 255, 255);
     text-decoration: none;
-    /* color:rgb(22, 16, 16); */
+    color:rgb(22, 16, 16);
 }
 
 .navigation__menu{
@@ -61,6 +53,10 @@ button:hover{
 }
 body{
     background-color: var(--bodyBackground);
+    display: flex;
+    flex-direction: column;
+    min-height:100vh;
+    justify-content: space-between;
 }
 .footer{
     background-color: var(--footerBackground);
@@ -104,18 +100,23 @@ body{
         transform:translatex(70vw);
         transition: transform 200ms linear;
         z-index: 999;
-     
-
     }
     .navigation__button{
         display: block;
+        position: fixed;
+        right:5vw;
+        top:5px;
         z-index: 1000;
+    }
+    .navigation__link--current{
+        color: white;
     }
     .navigation__button:active{
         transform: scale(1.2);
     }
       
    .navigation__item{
+       color: black;
         font-family: sans-serif;
         font-size:1.5em;
         margin: 1.6em 0.5em;
@@ -125,10 +126,6 @@ body{
         transform:translatex(0);
     }
 }
-@keyframes logo-animation {
-    
-}
-
 @media all and (min-width:783px){
     .navigation__logo{
         margin-left:20px;
@@ -136,6 +133,9 @@ body{
    .navigation__link:hover{
         border-bottom: 2px var(--hoverBackground) solid;
 
+    }
+    .navigation__link{
+        color:white;
     }
     .navigation__link--current{
         background: #00b9ff;
@@ -161,5 +161,10 @@ body{
         font-size: 1.2em;
         width:70vw;
         margin-right:50px; 
+    }
+}
+@media screen and (orientation:landscape) and (max-width:782px) {
+    .navigation__menu{
+        font-size: 0.6em;
     }
 }
