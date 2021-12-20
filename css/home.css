@@ -13,6 +13,10 @@
     color: #0A142F;
 
 }
+.profile__link{
+    text-decoration: none;
+    color:white;
+}
 .profile__image{
     max-width: 600px;
     min-width: 300px;

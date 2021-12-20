@@ -18,10 +18,10 @@
   transition: font-size 300ms linear;
 }
 .testimonials__header {
-  font-size: 2em;
+  font-size: 1.1em;
   text-align: center;
   color: #0A142F;
-  text-shadow: 5px 3px 5px rgb(43, 42, 42);
+  text-shadow: 5px 5px 5px rgb(78, 77, 77);
 }
 .testimonials__content:hover {
   font-size: 1.5em;
@@ -42,7 +42,7 @@
   display: flex;
   flex-direction: column;
   gap: 1em;
-  text-align: justify;
+  text-align: center;
 }
 @media all and (max-width: 500px) {
   .testimonials__content {

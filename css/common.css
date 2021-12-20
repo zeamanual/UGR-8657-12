@@ -163,7 +163,7 @@ body{
         margin-right:50px; 
     }
 }
-@media screen and (orientation:landscape) and (max-width:782px) {
+@media screen and (orientation:landscape) and (max-height:480px) and (max-width:782px){
     .navigation__menu{
         font-size: 0.6em;
     }
