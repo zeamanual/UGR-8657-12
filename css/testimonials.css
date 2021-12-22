@@ -7,7 +7,7 @@
 .testimonials__content {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
   padding: 2em;
   max-width: 70vw;
   gap: 1em;
