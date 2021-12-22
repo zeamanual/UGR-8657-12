@@ -13,7 +13,7 @@
 .about__paragraph{
     font-size: 1.5em;
     padding:1em;
-    text-align: justify;
+    text-align: left;
 }
 .about__header{
     text-align: center;

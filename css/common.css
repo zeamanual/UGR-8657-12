@@ -71,10 +71,14 @@ body{
     color: white;
 }
 .footer__header{
+    font-size: 1.2em;
     margin:1em 0em;
 }
 .footer__social-links{
    min-width:300px;
+}
+.copyright{
+    padding:1em;
 }
 .footer__links-header{
     text-align: center;

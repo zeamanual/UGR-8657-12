@@ -13,6 +13,7 @@
 }
 .card-container__slider{
     display: none;
+    color:#000000;
 }
 .card-container__card{
     display: flex;
